@@ -280,7 +280,7 @@ export default function Page() {
     let convPdtyHauler = pdtyHaulerConv.find(d => d.km == jarak);
 
     if (!convPdtyHauler) {
-      console.warn("⚠️ No matching km found for:", targetKm);
+      console.warn("⚠️ No matching km found for:", jarak);
       return;
     }
 
